@@ -8,5 +8,3 @@ shinyServer(
         output$predict <- renderPrint({predict(fit,data.frame(cyl=factor(input$cyl,levels=c("4","6","8")),hp=input$hp,wt=input$wt))})
     }
 )
-
-#

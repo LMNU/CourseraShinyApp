@@ -1,6 +1,5 @@
 shinyUI(
     fluidPage(
-        # Application title
         titlePanel("Prediction of miles per gallon"),
         
         sidebarLayout(
